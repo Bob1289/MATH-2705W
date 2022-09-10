@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{The Irrationality of $\sqrt{2}$}
+\author{Benny Chen}
+\date{September 2, 2022}
+
+\usepackage{color}
+\usepackage{amsthm}
+\usepackage{amssymb} 
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{Definition}{Definition}
+\newtheorem{Theorem}{Theorem}
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+In this short paper we will show that $\sqrt{2}$ is an irrational number. 
+In \hyperref[sec:Preliminaries]{Section 2} (use hyperref so section numbers in text are clickable), we 
+will introduce the concepts of rational and irrational numbers. In Section 3, 
+we will provide a proof of the fact that $\sqrt{2}$ is irrational. Finally, in 
+Section 4, we will discuss what we know about other numbers that are known to be irrational.
+
+\section{Preliminaries}
+\label{sec:Preliminaries}
+First, we define the rational numbers.
+\begin{Definition}
+Let $\mathbb{Q}$ be all rational numbers. A rational number is any real number that can be written as a 
+ratio such as a quotient or a fraction ($\frac{p}{q}$, $q$ being a non zero number) of two integers.
+
+
+\end{Definition}
+And now we can define the cocept of irrationality.
+\begin{Definition}
+A rational number is any real number that is not a quotient or a fraction of two integers. The number
+would be a infinitely continuous number without repeating.
+\end{Definition}
+
+\section{The Proof}
+We are finally ready to show our main result
+\begin{Theorem}
+    The real number $\sqrt{2}$ is irrational\\
+    Proof. 
+\end{Theorem}
+Assume that $\alpha = \sqrt{2}$ and $\alpha^{2} = 2$. Now suppose that $\alpha = \frac{m}{n}$ where
+$m, n$ are in their lowest terms, meaning that $m$ and $n$ are coprime with only 1 being their only factor. 
+We can now also surmise that $(\frac{m}{n})^2 = 2$ so that $m^2 = 2n^2$. Both $m$ and $n$ can be divided divided by 2 as 
+$m$ is divided by $2n^2$ which will be a even number. 
+
+\section{Irrational Number}
+There are many example of numbers that deviate from being rational, making them irrational.
+More famous examples are $\pi$ and Euler's Number. 
+\\\\$\pi$ is one of the most famous and well known numbers of all time. $\pi$ is the ratio of 
+the circumference of any circle to the diameter of that circle. $\pi$ was first realized by
+Greek mathematician Archimedes of Syracuse around 250 B.C who created a algorithm to approximate
+the number called Archimedes' constant. The number approximated by Archimedes, $\pi$, is also defined as
+irrational as the decimal continuously goes to infinity. There have been many proofs done on the subject
+that show that $\pi$ is irrational from Lambert's proof to Hermite's proof.
+\\\\Euler's Number is also a famous irrational number. Euler's number is a important mathematical constant
+that is the base of the natural logarithm. Euler's number was first discovered by Jacob Bernoulli in the late 1600's
+but was not known until the 17th century which when it was named after Swiss mathematician Leonhard Euler.
+Euler's number is similar to $\pi$ in that it is irrational and has a continuous decimal expansion. There have been many proofs
+done that support that it is irrational like Euler's proof and Fourier's proof.
+
+\begin{thebibliography}{9}
+    \bibitem{website:https://www.britannica.com/science/pi-mathematics}
+    Britannica, The Editors of Encyclopaedia. "pi". Encyclopedia Britannica, 14 Mar. 2022, https://www.britannica.com/science/pi-mathematics. 
+    
+    \bibitem{website:https://mathshistory.st-andrews.ac.uk/HistTopics/e/}
+    https://mathshistory.st-andrews.ac.uk/HistTopics/e/
+\end{thebibliography}
+
+\end{document}
